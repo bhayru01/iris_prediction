@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 # %% 1. LOAD MODEL
-with open('../models/rf.pkl', 'rb') as model_file:
+with open('./models/rf.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # %% 2. FLASK APP WITH SWAGGER
